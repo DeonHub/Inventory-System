@@ -1,4 +1,4 @@
-import React, { useState, Component } from 'react';
+import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import LoginForms from './components/LoginForms';
 import { Button } from 'react-bootstrap';

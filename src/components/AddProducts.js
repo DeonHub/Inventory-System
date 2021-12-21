@@ -1,16 +1,10 @@
 import { React, useState, createRef, useEffect } from 'react';
 import { Button, Form, Table, Row, Col } from 'react-bootstrap';
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  useNavigate,
-} from 'react-router-dom';
 
 //Add Products form
 
 function AddProducts() {
-  let navigate = useNavigate();
+
 
   //typeOfData [stateData, stateUpdateFunction] = useState{initalState}
 
@@ -40,7 +34,7 @@ function AddProducts() {
     // setProducts([product_name, product_price, quantity]);
     // console.log(products);
 
-    const date = new Date();
+   
     const formData = e.target;
     const newProduct = {
       lot: formData.lot.value,
